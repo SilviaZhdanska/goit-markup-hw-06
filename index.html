@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <!-- <header class="header">
+  <header class="header">
     <div class="container header-container">
       <nav class="navigation">
         <a href="./index.html" class="logo">Web<span class="header-logo-color">Studio</span></a>
@@ -46,7 +46,58 @@
           <use href="./images/icons.svg#icon-Group"></use>
         </svg></button>
     </div>
-  </header> -->
+
+
+    <div class="mob-menu">
+      <div>
+        <button type="button" class="mob-close-btn">x</button>
+        <nav>
+          <ul class="mob-nav-list">
+            <li class="mob-nav-item">
+              <a class="mob-nav-link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-nav-item"><a class="mob-nav-link" href="">Portfolio</a></li>
+            <li class="mob-nav-item"><a class="mob-nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mob-address">
+          <ul class="mob-adress-list">
+            <li class="mob-address-item">
+              <a class="mob-adress-link current" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="mob-address-item">
+              <a class="mob-adress-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <ul class="mob-sm-list">
+        <li class="mob-social-media">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg></a>
+        </li>
+        <li class="mob-social-media">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg></a>
+        </li>
+        <li class="mob-social-media">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg></a>
+        </li>
+        <li class="mob-social-media">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg></a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
 
   <main>
     <!-- <section class="hero-section">
@@ -240,7 +291,7 @@
       </div>
     </section> -->
 
-    <section class="section">
+    <!-- <section class="section">
       <div class="container">
         <h2 class="portfolio">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -251,8 +302,9 @@
                   srcset="./images/desktopimg/img1.jpg 1x, ./images/desktopimg/img1x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio1.jpg 1x, ./images/tabimg/tabportfolio1x2.jpg 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
-                <img src="./images/desktopimg/img1.jpg" alt="Banking App" width="356" />
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio1.jpg 1x, ./images/mobimg/mobportfolio1x2.jpg 2x">
+                <img src="./images/desktopimg/img1.jpg" alt="Banking App" width="360" />
               </picture>
 
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -271,8 +323,9 @@
                   srcset="./images/desktopimg/img2.jpg 1x, ./images/desktopimg/img2x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio2.jpg 1x, ./images/tabimg/tabportfolio2x2.jpg 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
-                <img src="./images/desktopimg/img2.jpg" alt="Cashless Payment" width="356" />
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio2.jpg 1x, ./images/mobimg/mobportfolio2x2.jpg 2x">
+                <img src="./images/desktopimg/img2.jpg" alt="Cashless Payment" width="360" />
               </picture>
 
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -291,8 +344,9 @@
                   srcset="./images/desktopimg/img3.jpg 1x, ./images/desktopimg/img3x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio3.jpg 1x, ./images/tabimg/tabportfolio3x2.jpg 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
-                <img src="./images/desktopimg/img3.jpg" alt="Meditation App" width="356" />
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio3.jpg 1x, ./images/mobimg/mobportfolio3x2.jpg 2x">
+                <img src="./images/desktopimg/img3.jpg" alt="Meditation App" width="360" />
               </picture>
 
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -311,8 +365,9 @@
                   srcset="./images/desktopimg/img4.jpg 1x, ./images/desktopimg/img4x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio4.jpg 1x, ./images/tabimg/tabportfolio4x2.jpg 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
-                <img src="./images/desktopimg/img4.jpg" alt="Taxi Service" width="356" />
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio4.jpg 1x, ./images/mobimg/mobportfolio4x2.jpg 2x">
+                <img src="./images/desktopimg/img4.jpg" alt="Taxi Service" width="360" />
               </picture>
 
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -331,8 +386,9 @@
                   srcset="./images/desktopimg/img5.jpg 1x, ./images/desktopimg/img5x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio5.jpg 1x, ./images/tabimg/tabportfolio5x2.jpg 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
-                <img src="./images/desktopimg/img5.jpg" alt="Screen Illustrations" width="356" />
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio5.jpg 1x, ./images/mobimg/mobportfolio5x2.jpg 2x">
+                <img src="./images/desktopimg/img5.jpg" alt="Screen Illustrations" width="360" />
               </picture>
 
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -350,9 +406,10 @@
                   srcset="./images/desktopimg/img6.jpg 1x, ./images/desktopimg/img6x2.jpg 2x">
                 <source media="(min-width: 768px)"
                   srcset="./images/tabimg/tabportfolio6.jpg 1x, ./images/tabimg/tabportfolio6x2 2x">
-                <source media="(min-width: 320px)" srcset="./images/mobimg/">
+                <source media="(min-width: 320px)"
+                  srcset="./images/mobimg/mobportfolio6.jpg 1x, ./images/mobimg/portfolio6x2 2x">
               </picture>
-              <img src="./images/desktopimg/img6.jpg" alt="Online Courses" width="356" />
+              <img src="./images/desktopimg/img6.jpg" alt="Online Courses" width="360" />
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -363,7 +420,7 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
   </main>
 
 
@@ -423,8 +480,8 @@
 
   </footer> -->
 
-  <!-- <div class="modal-overlay">
-    <div class="modal">
+  <!-- <div class="modal-overlay is-open">
+    <div class="modal ">
       <button type="button" class="close-btn"><svg class="close-btn-img" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg></button>
