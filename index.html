@@ -51,8 +51,10 @@
 
     <div class="mob-menu">
 
-      <button type="button" class="mob-close-btn" data-modal-close>x</button>
-      <nav>
+      <button type="button" class="mob-close-btn" data-modal-close><svg width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg></button>
+      <nav class="mob-nav">
         <ul class="mob-nav-list">
           <li class="mob-nav-item">
             <a class="mob-nav-link current" href="./index.html">Studio</a>
@@ -77,22 +79,22 @@
 
       <ul class="mob-sm-list">
         <li class="mob-social-media">
-          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-instagram-2"></use>
             </svg></a>
         </li>
         <li class="mob-social-media">
-          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-twitter-1"></use>
             </svg></a>
         </li>
         <li class="mob-social-media">
-          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-facebook-1"></use>
             </svg></a>
         </li>
         <li class="mob-social-media">
-          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="16" height="16">
+          <a href="" class="mob-sm-link"><svg class="mob-sm-icon" width="24" height="24">
               <use href="./images/icons.svg#icon-linkedin-1"></use>
             </svg></a>
         </li>
@@ -201,7 +203,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img srcset="./images/desktopimg/tomford.jpg x1, ./images/desktopimg/tomfordx2 x2"
+            <img srcset="./images/desktopimg/tomford.jpg x1, ./images/desktopimg/tomfordx2.jpg x2"
               src="./images/desktopimg/tomford.jpg" alt="Photo of Tom Ford Frontend Developer" width="264" />
             <div class="team-card">
               <h3 class="team-name">Tom Ford</h3>
@@ -231,7 +233,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img srcset="./images/desktopimg/camilagarcia.jpg x1, ./images/desktopimg/camilagarciax2 x2"
+            <img srcset="./images/desktopimg/camilagarcia.jpg x1, ./images/desktopimg/camilagarciax2.jpg x2"
               src="./images/desktopimg/camilagarcia.jpg" alt="Photo of Camila Garcia from Marketing" width="264" />
             <div class="team-card">
               <h3 class="team-name">Camila Garcia</h3>
@@ -261,7 +263,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img srcset="./images/desktopimg/danielwilson.jpg x1, ./images/desktopimg/danielwilsonx2 x2"
+            <img srcset="./images/desktopimg/danielwilson.jpg x1, ./images/desktopimg/danielwilsonx2.jpg x2"
               src="./images/desktopimg/danielwilson.jpg" alt="Photo of Daniel Wilson UI Designer" width="264" />
             <div class="team-card">
               <h3 class="team-name">Daniel Wilson</h3>
@@ -408,9 +410,9 @@
                 <source media="(min-width: 1158px)"
                   srcset="./images/desktopimg/img6.jpg 1x, ./images/desktopimg/img6x2.jpg 2x">
                 <source media="(min-width: 768px)"
-                  srcset="./images/tabimg/tabportfolio6.jpg 1x, ./images/tabimg/tabportfolio6x2 2x">
+                  srcset="./images/desktopimg/tabportfolio6.jpg 1x, ./images/desktopimg/tabportfolio6x2.jpg 2x">
                 <source media="(min-width: 320px)"
-                  srcset="./images/mobimg/mobportfolio6.jpg 1x, ./images/mobimg/portfolio6x2 2x">
+                  srcset="./images/mobimg/mobportfolio6.jpg 1x, ./images/mobimg/mobportfolio6x2.jpg 2x">
               </picture>
               <img src="./images/desktopimg/img6.jpg" alt="Online Courses" width="360" />
               <p class="portfolio-top">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -430,41 +432,42 @@
   <footer class="footer">
 
     <div class="container footer-container">
+      <div class="footer-info">
 
+        <div class="footer-logo-container">
+          <a class="footer-logo" href="./index.html">Web<span class="footer-logo-color">Studio</span></a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
 
-      <div class="footer-logo-container">
-        <a class="footer-logo" href="./index.html">Web<span class="footer-logo-color">Studio</span></a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-
-      <div class="footer-sm-container">
-        <p class="footer-sm">Social media</p>
-        <ul class="footer-sm-list">
-          <li class="footer-sm-item">
-            <a href="" class="footer-sm-link">
-              <svg class="footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg></a>
-          </li>
-          <li class="footer-sm-item">
-            <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg></a>
-          </li>
-          <li class="footer-sm-item">
-            <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg></a>
-          </li>
-          <li class="footer-sm-item">
-            <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg></a>
-          </li>
-        </ul>
+        <div class="footer-sm-container">
+          <p class="footer-sm">Social media</p>
+          <ul class="footer-sm-list">
+            <li class="footer-sm-item">
+              <a href="" class="footer-sm-link">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg></a>
+            </li>
+            <li class="footer-sm-item">
+              <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg></a>
+            </li>
+            <li class="footer-sm-item">
+              <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg></a>
+            </li>
+            <li class="footer-sm-item">
+              <a href="" class="footer-sm-link"><svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="footer-form-container">
         <p class="footer-form-text">Subscribe</p>
